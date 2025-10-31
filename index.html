@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css"  rel="stylesheet">
+    <title>TechNova</title>
+</head>
+<body>
+   <!--navbar-->
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed-top">
+    <div class="container" id="nav">
+      <a class="navbar-brand fw-bold" href="#">TechNova</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--hero section-->
+  <section id="hero" class="text-center d-flex  flex-column justify-content-center align-items-center">
+    <div class="container text-white">
+      <h1 class="text-shadow-drop-right fw-bold display-6">TECHNOVA</h1>
+      <h2 class="display-5 fw-bold pb-5">Transform Your Digital Presence</h2>
+      <p class="lead">We create innovative digital solutions that drive growth and elevate your brand. From web development to digital marketing, we're your partners in digital transformation.
+      </p>
+      <a href="#service"  id="button"class="btn btn-lg btn-primary mt-4">Get Started</a>
+      <a href="#about" id="button" class="btn btn-lg btn-primary mt-4">Our Work</a>
+    </div>
+  </section>
+      <!--about-->
+    <section id="about">
+      <div class="container py-5">
+        <h5 class="text-primary fs-3">Discover Our Story</h5>
+        <h2 class="display-4 text-white fw-bold">Innovative Solutions for a Digital-First World</h2>
+        <p  class=" lead text-white fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati natus alias, voluptas, hic commodi iusto nobis, error itaque voluptatibus atque maxime ratione adipisci vel officiis. Accusantium perferendis aperiam incidunt.
+
+        </p>
+        <ul class="text-white fs-5">
+          <li>Excepteur sint occaecat cupidatat non proident.</li>
+          <li>Nemo enim ipsam voluptatem quia voluptas sit.</li>
+          <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+        </ul>
+        <a  href ="#service" class="btn btn-primary w-30">Dicover More</a>
+      </div>
+    </section>
+    <!--service-->
+    <section id="services">
+      <div class="container text-white py-5 ">
+        <h2 class="fs-1 text-center">Services</h2>
+        <div class="row">
+          <div class="col-md-4  col-sm-12 mt-4">
+            <div class="card h-100 shadow">
+              <div class="card-body"  id="service">
+                <h4 class="card-title">Web Design</h4>
+                <p class="card-text text-white">Beautiful, responsive websites that look great on every device.</p>
+                <a href="#" class=" btn  btn-primary text-decoration-none">Learn More...</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-4" >
+          <div class="card h-100  shadow">
+            <div class="card-body"  id="service">
+              <h5 class="card-title fw-bold">UI/UX Design</h5>
+              <p class="card-text text-white">Custom UI/UX design your websites.</p>
+              <a href="#" class=" btn  btn-primary text-decoration-none">Learn More...</a>
+
+            </div>
+          </div>
+        </div>
+          
+        <div class="col-md-4  col-sm-12 mt-4">
+          <div class="card h-100 shadow">
+            <div class="card-body"  id="service">
+              <h5 class="card-title fw-bold">Brand Strategy</h5>
+              <p class="card-text text-white">Helping startups build strong digital identities with purpose.</p>
+             <a href="#" class=" btn  btn-primary text-decoration-none">Learn More...</a>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-4 col-sm-12 mt-4">
+          <div class="card h-100 shadow"  >
+            <div class="card-body"  id="service">
+              <h5 class="card-title fw-bold">App Development</h5>
+              <p class="card-text text-white">Custom web and mobile applications that drive results.</p>
+              <a href="#" class=" btn  btn-primary text-decoration-none">Learn More...</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+           <div class="col-md-12 col-sm-12 mt-4 text-center bg">
+          <div class="card h-100 shadow" >
+            <div class="card-body"  id="service">
+              <h5 class="card-title fw-bold fs-2 text-primary">Ready to Transform Your Digital Presence?</h5>
+              <p class="card-text text-secondary">Let's discuss your project and create something amazing together</p>
+              <a class="btn btn-primary  w-30"  href="#">Get Started Today</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--contanct-->
+    <!-- Contact -->
+  <section class="py-5">
+    <div class="container text-center"  id="contact">
+      <h2 class="fw-bold mb-4 text-white fs-1">Contact Us</h2>
+      <p class="text-white fs-3">Let’s build something amazing together.</p>
+      <form class="mx-auto" style="max-width: 500px;">
+        <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+        <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+        <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+        <button class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+    <div class="container text-white py-5">
+      <h1>Ready to Transform Your Ideas?</h1>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore.</p>
+      <div class="row">
+        <div class="col-md-12" id="contactmenu">
+          <h2>📧Email Us</h2>
+          <p class="fs-4">hello@gmail.com</p>
+        </div>
+        <div class="col-md-12" id="contactmenu" >
+          <h2>📞Call us</h2>
+          <p class="fs-4">+1 (555) 987-6543</p>
+        </div>
+        <div class="col-md-12"id="contactmenu" >
+          <h2>Visit our website</h2>
+          <p>www.technova.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer  id="footer">
+    <div class="container text-white">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <h3>TECHNOVA</h3>
+      <pre class="fs-6">
+A108 Adam Street
+New York, NY 535022
+Phone: +1 5589 5548855
+Email: info@example.com
+      </pre>
+        </div>
+        <div class="col-md-4 col-sm-12">
+        <h3>Useful Links</h3>
+      <ul class="list">
+        <li><a href="#hero" class="text-decoration-none text-white fs-5 ">Home</a></li>
+        <li><a href="#about" class="text-decoration-none text-white fs-5">About Us</a></li>
+        <li><a href="#Services" class="text-decoration-none text-white fs-5">Services</a></li>
+        <li><a href="#" class="text-decoration-none text-white fs-5">Terma of Service</a></li>
+      </ul>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2>Our Services</h2>
+        <ul class="list">
+          <li class="fs-5">Web Design</li>
+          <li class="fs-5">UI/UX Design</li>
+          <li class="fs-5">Brand Strategy</li>
+          <li class="fs-5"> App Development</li>
+        </ul>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center fs-5">© Copyright TechNovaAll Rights Reserved</p>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

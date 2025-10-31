@@ -1,0 +1,84 @@
+body{
+  background-color: rgb(2, 6, 29);
+}
+#nav{
+  font-size: larger;
+  border-radius: 15px;
+  background-color: rgb(35, 35, 44);
+}
+body {
+  scroll-behavior: smooth;
+}
+
+#hero {
+  height: 100vh;
+}
+
+#hero h2{
+  animation: fadeInDown 1s ease;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+#button{
+  border-radius: 25px;
+  padding: 10px;
+  width: 220px;
+}
+#about{
+  height:70vh;
+}
+#service{
+  color: rgb(31, 85, 132);
+   background-color:  rgb(35, 35, 44);
+  box-shadow: rgba(63, 55, 95, 0.3) 0px 19px 38px, rgba(83, 0, 191, 0.393)  5px 10px 10px;
+}
+#section{
+  height:100px;
+  
+}
+#contact{
+  background-color:  rgb(35, 35, 44);
+  border-top: 10px  solid blueviolet;
+  border-radius: 25px;
+  height: 60vh;
+  box-shadow: rgba(38, 6, 167, 0.3) 0px 19px 38px, rgba(83, 0, 191, 0.748) 10px 15px 12px;
+}
+#contactmenu{
+  margin: 10px;
+  border-radius: 20px;
+  height: 80px;
+  background-color:  rgb(35, 35, 44);
+  box-shadow: rgba(29, 29, 61, 0.784) 0px 13px 27px -5px, rgba(51, 9, 9, 0.522) 0px 8px 16px -8px;
+}
+#footer{
+  background-color: rgba(39, 38, 38, 0.475);
+}
+.list{
+  list-style: none;
+  position: relative;
+  right: 30px;
+}
+.text-shadow-drop-right {
+	-webkit-animation: text-shadow-drop-right 0.6s both;
+	        animation: text-shadow-drop-right 0.6s both;
+}
+@-webkit-keyframes text-shadow-drop-right {
+  0% {
+    text-shadow: 0 0 0 rgb(94, 10, 240);
+  }
+  100% {
+    text-shadow: 6px 0 18px rgba(32, 0, 192, 0.985);
+  }
+}
+@keyframes text-shadow-drop-right {
+  0% {
+    text-shadow: 0 0 0 rgba(10, 9, 9, 0.83);
+  }
+  100% {
+    text-shadow: 6px 0 18px rgba(101, 9, 213, 0.673);
+  }
+}
+
